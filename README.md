@@ -27,48 +27,8 @@ A full-stack web application to track job applications on a Kanban board. AI aut
 - Node.js + Express.js + TypeScript
 - MongoDB + Mongoose
 - JWT Authentication
-- Groq AI — LLaMA 3.3-70b
+- Groq AI 
 
----
-
-## Project Structure
-
-```
-job-tracker/
-├── frontend/
-│   └── src/
-│       ├── components/
-│       │   ├── Auth/
-│       │   ├── Board/         # KanbanBoard, KanbanColumn
-│       │   ├── Card/          # ApplicationCard, ApplicationModal
-│       │   └── UI/
-│       ├── pages/
-│       │   ├── AuthPage.tsx
-│       │   └── DashboardPage.tsx
-│       ├── services/
-│       │   ├── api.ts
-│       │   ├── aiService.ts
-│       │   └── applicationService.ts
-│       ├── store/
-│       ├── types/
-│       └── hooks/
-└── backend/
-    └── src/
-        ├── controllers/
-        │   ├── authController.ts
-        │   ├── applicationController.ts
-        │   └── aiController.ts
-        ├── middleware/
-        ├── models/
-        │   ├── User.ts
-        │   └── Application.ts
-        ├── routes/
-        ├── services/
-        │   └── openaiService.ts   # Groq AI integration
-        └── types/
-```
-
----
 
 ## Getting Started
 
@@ -187,6 +147,8 @@ Go to [http://localhost:5173](http://localhost:5173) in your browser.
 ## Screenshots
 
 ![Kanban Board](img3.png)
+![Kanban Board](img1.png)
+![Kanban Board](img2.png)
 
 ---
 
