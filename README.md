@@ -186,18 +186,7 @@ Go to [http://localhost:5173](http://localhost:5173) in your browser.
 
 ## Screenshots
 
-> Add screenshots of your Kanban board, Add Application modal, and parsed result here.
+![Kanban Board](img3.png)
 
 ---
 
-## Author
-
-**Siddharth Yadav**  
-M.Tech CSE — IIT Patna  
-[GitHub](https://github.com/yourusername) • [LinkedIn](https://linkedin.com/in/yourusername)
-
----
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
