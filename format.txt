@@ -1,0 +1,29 @@
+backend
+├── package.json
+├── tsconfig.json
+├── .env.example
+└── src
+    ├── app.ts
+    ├── server.ts
+    ├── config
+    │   └── db.ts
+    ├── controllers
+    │   ├── authController.ts
+    │   ├── applicationController.ts
+    │   └── aiController.ts
+    ├── middleware
+    │   ├── authMiddleware.ts
+    │   ├── errorMiddleware.ts
+    │   └── notFound.ts
+    ├── models
+    │   ├── User.ts
+    │   └── Application.ts
+    ├── routes
+    │   ├── authRoutes.ts
+    │   ├── applicationRoutes.ts
+    │   └── aiRoutes.ts
+    ├── services
+    │   └── openaiService.ts
+    └── types
+        ├── express.d.ts
+        └── application.ts
