@@ -36,7 +36,7 @@ A full-stack web application to track job applications on a Kanban board. AI aut
 
 - Node.js v18+
 - MongoDB (local or Atlas)
-- Groq API Key — free at [console.groq.com](https://console.groq.com)
+- Groq API Key — free 
 
 ### 1. Clone the repository
 
